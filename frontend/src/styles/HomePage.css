@@ -1,0 +1,42 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.homepage {
+  height: 100vh;
+  background: url('https://img.freepik.com/premium-photo/simple-black-workspace-with-camera-plant-keyboard-copy-space-black-background-top-view_67155-19523.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage-title {
+  font-size: 5rem;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.login-button {
+  background-color: #ffa500; /* Orange */
+  color: white;
+  padding: 10px 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #e69500; /* Darker on hover */
+}
+
