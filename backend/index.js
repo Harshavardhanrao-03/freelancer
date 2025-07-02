@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB Connection
-mongoose.connect('mongodb://localhost:27017/freelancer', {
+mongoose.connect(mongodb+srv://Sravan7247:<db_password>@cluster0.ibuilux.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => console.log('✅ MongoDB connected'))
